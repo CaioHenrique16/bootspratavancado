@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo_13</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <!--navbar-->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/imagens/logo-1-branco.png" alt="logo" width="200">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center m-3 p-2 fs-4 mb-4 fw-bold " id="navbarNav" >
+                    <ul class="navbar-nav" >
+                        <li class="nav-item">
+                            <a class="nav-link link-light active"  aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light"  href="#">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light"  href="#">Portifólio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light"  href="#" >Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="procurar no site..." aria-label="Search">
+                    <button class="btn btn-info btn-md" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <!--carousel-->
+    <div class="container-sm">
+        <div id="carousel" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                    <img src="/imagens/lab-1.jpeg" class="d-block w-100 img-thumbnail" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/imagens/lab-2.jpeg" class="d-block w-100 img-thumbnail" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/imagens/front.jpeg" class="d-block w-100 img-thumbnail" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="contaienr p-5 ">
+        <section class="justify-contente-center">
+            <div class="container-fluid text-center">
+                <div class="row row-cols-lg-3  row-cols-md-2 row-cols-sm-1">
+                    <div class="col">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="/imagens/adesivo-0.png" class="card-img-top" width="286.4" height="381.86" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sobre nós</h5>
+                                <p class="card-text">Somos a Animalex Laboratório Clínico Veterinário e temos como objetivo auxiliar os colegas veterinários com o diagnóstico laboratorial e interpretação de resultados, tendo como prioridade excelência, qualidade, ética e confiança, através de exames e técnicas modernas e precisas.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Saber mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="/imagens/lab-3.jpeg" class="card-img-top" width="auto" height="auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Portifólio</h5>
+                                <p class="card-text">Análises clínicas, hematologia, bioquímica, coprologia, imunologia, análise dermatológica, análise de cerúmen, cintologia, medula óssea, urinálise, bioquímica dos líquidos, análise de líquidos, microbiologia, sorologia, hormonal...</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Saber mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="/imagens/front.jpeg" class="card-img-top" width="286.4" height="381.86" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Contato</h5>
+                                <p class="card-text">Entre em contato via Whatsapp, Email e telefone!</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Saber mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="/imagens/adesivo-0.png" class="card-img-top" width="286.4" height="381.86" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sobre nós</h5>
+                                <p class="card-text">Somos a Animalex Laboratório Clínico Veterinário e temos como objetivo auxiliar os colegas veterinários com o diagnóstico laboratorial e interpretação de resultados, tendo como prioridade excelência, qualidade, ética e confiança, através de exames e técnicas modernas e precisas.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Saber mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="/imagens/lab-3.jpeg" class="card-img-top" width="auto" height="auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Portifólio</h5>
+                                <p class="card-text">Análises clínicas, hematologia, bioquímica, coprologia, imunologia, análise dermatológica, análise de cerúmen, cintologia, medula óssea, urinálise, bioquímica dos líquidos, análise de líquidos, microbiologia, sorologia, hormonal...</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Saber mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="/imagens/brand A black.png" class="card-img-top" width="286.4" height="381.86" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Perguntas frequentes</h5>
+                                <p class="card-text">Tire suas dúvidas aqui mesmo!</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Saber mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+        
+    <footer>
+    <div class="container-footer">
+        <img src="/imagens/brand A1.png" alt="">
+    </div>
+    </footer>
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+.navbar {
+    background-color:   #44e9e1;
+    border-bottom:5px solid aqua;
+}
+.nav-item {
+    color: white;
+} 
+
+.nav-item :hover {
+    color: rgb(0, 0, 0) !important;
+}
+
+.btn-info {
+    color: white;
+    font-weight: 800;
+    margin-right: 5px;
+}
+
+.btn-info:hover {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+}
+
+.btn-primary {
+    display: grid;
+    justify-content: center;
+    align-self: flex-end;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    background-color: #22b6af;
+    outline: none;
+    border: none;
+    width: 254.4px;
+    height: 36px;
+}
+
+.btn-primary:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.container {
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+
+
+h5 {
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+footer {
+    border-top: 5px solid aqua;
+    background-color: #22b6af;
+}
+
+.container-footer img {
+    width: 100px;
+    align-content: center;
+}
+
+
